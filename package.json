@@ -6,9 +6,12 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "server": "json-server --host 0.0.0.0 db.json"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.17.19",
+    "axios": "^1.6.5",
     "expo": "~50.0.2",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
